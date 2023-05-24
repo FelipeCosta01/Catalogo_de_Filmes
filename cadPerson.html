@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css" href="bootstrap/css/bootstrap.min.css">>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Cadastro Personagem</title>
+</head>
+<body id="cadastro">
+
+    <header id="txtSecond">Cadastro Personagem</header>
+
+<section id="informacoes"> 
+
+    
+
+<p> <!--Primeiro paragrafo com o campo texto-->
+    <b id="styleRemetente "  class="txts"> Nome Personagem: </b>
+          <input class="entCadastros" type="text"  id="txtPerso" placeholder="Digite o Personagem aqui." maxlength=35 size=30 > <!--Criando campo texto/ usando placeholder pra bota mensagem no fundo do campo/ definindo maximo de caracteres/ tamanho do campo-->
+    
+         
+    <b id="styleTelefone" class="txts">Força:</b>
+          <input class="entCadastros" type="text"  id="txtForca"  maxlength=3 size=16 >
+    </p>
+
+<p>
+    <b id="styleEnd" class="txts">Velocidade: </b>
+         <input class="entCadastros" type="text"  id="txtVelocidade"  maxlength=3 size=16 >
+
+    <b id="styleNumcasa" class="txts">Durabilidade: </b>
+         <input class="entCadastros" type="text"  id="txtDurabilidade"  maxlength=3 size=25 >                 
+</p>
+
+<p>
+
+    <b id="styleBairro" class="txts">Potencia: </b>
+         <input class="entCadastros" type="text"  id="txtPotencia"  maxlength=3 size=31 >
+
+</p>
+
+<p>
+    <b id="styleBairro" class="txts">Combate: </b>
+    <input class="entCadastros" type="text"  id="txtCombate"  maxlength=3 size=31 >
+
+
+</p>
+<div id="btnsPersons">
+    <input class="btnCadastros" id="btnSalvar" type="button" value="Cadastrar" onclick="btSalvar()">
+    <input class="btnCadastros" id="btnSalvarJson" type="button" value="Salvar" onclick="btSalvarJson()">
+</div>
+<script src="codePerson.js"></script>
+
+</section>

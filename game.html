@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="codeBatalha.js" async></script>
+</head>
+<body>
+    
+    <div id="one">
+        
+                <div>
+                    <select id="personagem-select" class="opcBatalha"></select>
+                </div>
+
+    <div>
+        <img src="img\\vs.png" width=250 height=210>
+    </div>
+
+    <div id="two">
+                <div>
+                    <select id="personagem-select2" class="opcBatalha"></select>
+                </div>
+    </div>
+
+    <div>
+        <input type="button" value="Batalha" id="btnBatalha" onclick="comparar()">
+    </div>   
+
+    <h1 id="txtVenc">VENCEDOR:</h1>
+    <h2 id="winner">Clique em batalha!</h2>
+
+    <section id="secao1">
+        <h1 id="nomePerson1"></h1><br/>
+        <p id="espPerson1"></p>
+    </section>
+
+    <section id="secao2">
+        <h1 id="nomePerson2"></h1> <br/>
+        <p id="espPerson2"></p>
+    </section>
+
+</body>
+</html>
